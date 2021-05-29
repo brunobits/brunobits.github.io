@@ -7,6 +7,11 @@ body {
     font-size: 1em;
 }
 
+section {
+    width: 50%;
+    margin: 2em auto 2em auto;
+}
+
 h1 {
     color: rgb(255, 0, 140);
 }
