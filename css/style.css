@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.blog-title {
+    color: rgb(255, 0, 140);
+}
+
+.blog-subtitle {
+    color: lime;
+}
+
+pre {
+    margin-top: 50px;
+    color: rgb(0, 110, 255);
+}
+
+p, p a {
+    line-height: normal;
+}
+
+p a {
+   color: cyan;
+   text-decoration: none;
+   transition: all 0.1s;
+}
+
+p a:hover {
+    color: black;
+    background-color: cyan;
+    text-decoration: none;
+}
+
+p a:before {
+    content: "=> 🌍 "
+}
