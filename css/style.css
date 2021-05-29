@@ -4,14 +4,27 @@ body {
     background-color: black;
     color: white;
     font-family: 'Roboto Mono', monospace;
+    font-size: 1em;
 }
 
-.blog-title {
+h1 {
     color: rgb(255, 0, 140);
 }
 
-.blog-subtitle {
+h2 {
     color: lime;
+}
+
+h1, h2, h3 {
+    font-size: 1.1em;
+}
+
+h1::before {
+    content: "# ";
+}
+
+h2::before {
+    content: "## ";
 }
 
 pre {
@@ -21,6 +34,10 @@ pre {
 
 p, p a {
     line-height: normal;
+}
+
+p {
+    text-align: justify;
 }
 
 p a {
